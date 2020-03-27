@@ -2,7 +2,7 @@
 
 Deploy a file upload server with all api endpoints to upload and retrive files easily. Developped with node.js and express, find the docker image [here](https://hub.docker.com/repository/docker/lucaseaiie/file-upload-api).
 
- # How to use this image
+ # How to use this image with Docker
 
 ## Standalone
 `docker run -p 7958:7958 -v uploaded:/usr/src/app/uploaded -d lucaseaiie/file-upload-api:latest`
